@@ -11,7 +11,7 @@ private: int hours, mins, secs;
 public:
 	Time();
 	~Time();
-	void getTime(int &, int &, int &);
+	void getTime(int &, int &, int &) const;
 	void setTime(int, int, int);
 	void print() const;  //making member function constant to be accessible to constant objects
 };

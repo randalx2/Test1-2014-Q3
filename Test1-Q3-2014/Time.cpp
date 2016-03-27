@@ -19,7 +19,7 @@ Time::~Time()
 {
 }
 
-void Time::getTime(int &outHours, int &outMins, int &outSecs) //use reference when getting more than one attb
+void Time::getTime(int &outHours, int &outMins, int &outSecs) const//use reference when getting more than one attb
 {
 	outHours = hours;
 	outMins = mins;
